@@ -1,0 +1,207 @@
+html, body{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.name{
+  color: black;
+  padding: 80px ;
+  letter-spacing: 5px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 400%;
+  text-decoration: none;
+}
+
+#toMain{
+  color: inherit;
+  text-decoration: none;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
+
+.dropbtn{
+  color: black;
+  font-size: 200%;
+  border: none;
+  font-family: 'Fjalla One', sans-serif;
+  /* display: inline-block; */
+  background-color: inherit;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 170px;
+  z-index: 1;
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 150%;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown:hover .dropbtn{
+  background-color: white;
+}
+
+.aboutme{
+  font-size: 200%;
+  margin-left: 20px;
+}
+
+ .contactme {
+  font-size: 200%;
+  margin-left: 20px;
+}
+
+.aboutme a, .contactme a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.social .end {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.logo{
+  height: 30px;
+  margin-right: 15px;
+}
+
+.dropdownSport{
+  display: block;
+}
+
+.dropbtnSport{
+  color: black;
+  font-size: 200%;
+  border: none;
+  font-family: 'Fjalla One', sans-serif;
+  display: block;
+  background-color: inherit;
+}
+
+.dropdownSport-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 170px;
+  z-index: 1;
+}
+
+.dropdownSport-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 150%;
+}
+
+.dropdownSport-content a:hover {
+  background-color: white;
+}
+
+.dropdownSport:hover .dropdownSport-content{
+  display: block;
+}
+
+.dropdownSport:hover .dropbtnSport{
+  background-color: white;
+}
+/* ========================================================================== */
+
+.navigation-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.photos{
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+
+.first, .second{
+  margin-bottom: 35px;
+}
+
+.last{
+  margin-bottom: 100px;
+}
+
+/* Style the header: fixed position (always stay at the top) */
+.progress-bar-outer {
+  position: fixed;
+  left:0;
+  top:  0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: white;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: black;
+  width: 0%;
+}
+
+.information{
+  font-size: 125%;
+  margin-left: 50px;
+  margin-left: auto;
+  margin-right: 0;
+  display: block;
+  text-align: left;
+}
+
+.information-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.map{
+  display: block;
+  width: 1300px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+
+.back-to-top a{
+  color: black;
+  text-decoration: none;
+  font-size: 150%;
+}
