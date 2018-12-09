@@ -172,3 +172,26 @@ tr:hover{
 .mounttable th{
     text-decoration-color: black;
 }
+
+.notreached a{
+  font-style: italic;
+  color: black;
+}
+
+.plan a{
+  font-style: italic;
+  color: black;
+}
+.colors {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.gray, .red, .blue{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ margin-right: 30px;
+ margin-top: 70px;
+}

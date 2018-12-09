@@ -212,5 +212,13 @@ html, body{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 1em;
+}
 
+ .inftxt a{
+  color: black;
+  text-decoration: underline;
+}
+
+.inftxt{
+  padding-top: 30px;
 }
