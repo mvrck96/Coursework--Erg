@@ -17,17 +17,16 @@ html, body{
 }
 
 .dropdown{
-  position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .dropbtn{
-  background-color: white;
   color: black;
-  /*padding: 16px;*/
   font-size: 200%;
   border: none;
   font-family: 'Fjalla One', sans-serif;
+  display: block;
+  background-color: inherit;
 }
 
 .dropdown-content{
@@ -58,14 +57,20 @@ html, body{
   background-color: white;
 }
 
-.aboutme, .contactme {
+.aboutme{
   font-size: 200%;
-  padding: 1px 1px 1px 80px;
+  margin-left: 20px;
+}
+
+ .contactme {
+  font-size: 200%;
+  margin-left: 20px;
 }
 
 .aboutme a, .contactme a{
   text-decoration: none;
   color: black;
+  padding: 5px;
 }
 
 .social .end {
@@ -83,18 +88,17 @@ html, body{
 
 
 .dropdownSport{
-  position: relative;
-  display: inline-block;
-  padding: 1px 1px 1px 80px;
+  display: block;
+  margin-left: 20px;
 }
 
 .dropbtnSport{
-  background-color: white;
   color: black;
-  /*padding: 16px;*/
   font-size: 200%;
   border: none;
   font-family: 'Fjalla One', sans-serif;
+  display: block;
+  background-color: inherit;
 }
 
 .dropdownSport-content{
@@ -124,8 +128,15 @@ html, body{
 .dropdownSport:hover .dropbtnSport{
   background-color: white;
 }
+/* ========================================================================== */
 
-/*===============================*/
+.navigation-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
 
 
 .inf{
@@ -138,6 +149,7 @@ html, body{
 .runs{
   width: 100%;
   border-collapse: collapse;
+  font-family: 'Roboto', sans-serif;
 }
 
 th, td {
@@ -158,4 +170,10 @@ tr:hover{
 .headers{
   font-size: 130%;
   font-weight: 100;
+}
+
+.inf-text{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 40px;
 }

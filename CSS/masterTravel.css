@@ -14,12 +14,12 @@ html, body{
 #toMain{
   color: inherit;
   text-decoration: none;
+
 }
 
 .dropdown{
-  position: relative;
-  display: inline-block;
-  margin: 20px;
+  display: block;
+
 }
 
 .dropbtn{
@@ -27,7 +27,7 @@ html, body{
   font-size: 200%;
   border: none;
   font-family: 'Fjalla One', sans-serif;
-  /* display: inline-block; */
+  display: block;
   background-color: inherit;
 }
 
@@ -50,6 +50,7 @@ html, body{
 .dropdown-content a:hover {
   background-color: white;
 }
+
 
 .dropdown:hover .dropdown-content{
   display: block;
@@ -90,6 +91,7 @@ html, body{
 
 .dropdownSport{
   display: block;
+  margin-left: 20px;
 }
 
 .dropbtnSport{
@@ -139,20 +141,19 @@ html, body{
 }
 
 .photos{
-  display: grid;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  position: fixed;
+  margin-top: 100px;
 }
 
-.first, .second{
+.first, .second, .last {
   margin-bottom: 35px;
 }
 
 .last{
   margin-bottom: 100px;
 }
-
 /* Style the header: fixed position (always stay at the top) */
 .progress-bar-outer {
   position: fixed;
@@ -166,14 +167,14 @@ html, body{
 /* The progress container (grey background) */
 .progress-container {
   width: 100%;
-  height: 8px;
+  height: 0px;
   background: white;
 }
 
 /* The progress bar (scroll indicator) */
 .progress-bar {
-  height: 8px;
-  background: black;
+  height: 16px;
+  background: #9e9e9e;
   width: 0%;
 }
 
@@ -182,26 +183,44 @@ html, body{
   margin-left: 50px;
   margin-left: auto;
   margin-right: 0;
-  display: block;
   text-align: left;
 }
 
 .information-wrapper{
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.map{
-  display: block;
+/*.map{
   width: 1300px;
-  height: 140px;
   margin: 0 auto;
 }
+*/
 
+.outer-btt{
+  width: 100%;
+  text-align: center;
+}
 
 .back-to-top a{
   color: black;
   text-decoration: none;
   font-size: 150%;
+  padding: 20px;
+  display: inline-block;
+}
+
+.information-total{
+  padding: 10px;
+}
+
+.realMap{
+  display: block;
+  width: 1200px;
+ /* height: 140px;*/
+/*  margin: 100 100 100 100px; */
+  margin: 0 auto;
 }

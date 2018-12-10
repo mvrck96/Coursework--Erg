@@ -16,17 +16,16 @@ html, body{
 }
 
 .dropdown{
-  position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .dropbtn{
-  background-color: white;
   color: black;
-  /*padding: 16px;*/
   font-size: 200%;
   border: none;
   font-family: 'Fjalla One', sans-serif;
+  display: block;
+  background-color: inherit;
 }
 
 .dropdown-content{
@@ -57,14 +56,20 @@ html, body{
   background-color: white;
 }
 
-.aboutme, .contactme {
+.aboutme{
   font-size: 200%;
-  padding: 1px 1px 1px 80px;
+  margin-left: 20px;
+}
+
+ .contactme {
+  font-size: 200%;
+  margin-left: 20px;
 }
 
 .aboutme a, .contactme a{
   text-decoration: none;
   color: black;
+  padding: 5px;
 }
 
 .social .end {
@@ -80,61 +85,18 @@ html, body{
   margin-right: 15px;
 }
 
-/*============================================================================*/
-
-
-.dossier{
-  /*position: absolute;*/
-  /*top: 21%;*/
-  /*left: 46%;*/
-  /*align: center;*/
-  font-size: 125%;
-  /*background-color: gray;*/
-  /*margin: 10px ;*/
-  /*padding: 50px;*/
-  /*width: 600px;*/
-  height: 600px;
-  /*background-color: #ddd;*/
-  display: block;
-  margin-top: 10%;
-}
-
-.dossier p {
-  width: 600px;
-  /*background-color: #fff;*/
-}
-
-.me{
-  /*position: absolute;*/
-  /*top: 25%;*/
-  /*left:13%;*/
-  /*align:center;*/
-  /*background-color: #eee;*/
-  display: block;
-  margin-top: 10%;
-}
-
-.mePhoto{
-  display: block;
-  margin-left: auto;
-  margin-right: 0;
-  border: 1px
-  border-color: black;
-}
-
 .dropdownSport{
-  position: relative;
-  display: inline-block;
-  padding: 1px 1px 1px 80px;
+  display: block;
+  margin-left: 20px;
 }
 
 .dropbtnSport{
-  background-color: white;
   color: black;
-  /*padding: 16px;*/
   font-size: 200%;
   border: none;
   font-family: 'Fjalla One', sans-serif;
+  display: block;
+  background-color: inherit;
 }
 
 .dropdownSport-content{
@@ -165,21 +127,48 @@ html, body{
   background-color: white;
 }
 
-/*.music{
-  position:absolute;
-  top: 100%; bottom: 0; left: 13%; right: 0;
-  margin: auto;
+.navigation-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0 auto;
+  justify-content: flex-start;
 }
 
-.movies img{
-  position:relative;
-  margin: auto;
+.dossier{
+  font-size: 125%;
+  height: 600px;
+  display: block;
+}
 
-  height: 210px;
-}*/
+/* .dossier p {
+  width: 600px;
+} */
+
+.me{
+  display: block;
+}
+
+.mePhoto{
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  border-color: black;
+}
+
 /*============================================================================*/
 .myBio{
+  margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap: 1em;
+  margin-bottom: 60px;
+}
+
+.dossierText{
+  margin-top: 13px;
+  height: 600px;
+  width: 600px;
+  font-family: 'Roboto', sans-serif;
 }

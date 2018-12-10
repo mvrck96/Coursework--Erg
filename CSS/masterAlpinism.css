@@ -17,17 +17,16 @@ html, body{
 }
 
 .dropdown{
-  position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .dropbtn{
-  background-color: white;
   color: black;
-  /*padding: 16px;*/
   font-size: 200%;
   border: none;
   font-family: 'Fjalla One', sans-serif;
+  display: block;
+  background-color: inherit;
 }
 
 .dropdown-content{
@@ -58,15 +57,22 @@ html, body{
   background-color: white;
 }
 
-.aboutme, .contactme {
+.aboutme{
   font-size: 200%;
-  padding: 1px 1px 1px 80px;
+  margin-left: 20px;
+}
+
+ .contactme {
+  font-size: 200%;
+  margin-left: 20px;
 }
 
 .aboutme a, .contactme a{
   text-decoration: none;
   color: black;
+  padding: 5px;
 }
+
 
 .social .end {
   position: fixed;
@@ -83,18 +89,17 @@ html, body{
 
 
 .dropdownSport{
-  position: relative;
-  display: inline-block;
-  padding: 1px 1px 1px 80px;
+  display: block;
+  margin-left: 20px;
 }
 
 .dropbtnSport{
-  background-color: white;
   color: black;
-  /*padding: 16px;*/
   font-size: 200%;
   border: none;
   font-family: 'Fjalla One', sans-serif;
+  display: block;
+  background-color: inherit;
 }
 
 .dropdownSport-content{
@@ -124,9 +129,20 @@ html, body{
 .dropdownSport:hover .dropbtnSport{
   background-color: white;
 }
+/* ========================================================================== */
+
+.navigation-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
 /*===============================*/
 
 .inf{
+  margin-top: 100px;
   display: block;
   margin: auto;
   font-size: 135%;
@@ -149,7 +165,7 @@ th, td {
 
 .headers{
   font-size: 130%;
-  font-weight: 100;
+  /* font-weight: 00; */
 }
 
 tr:hover{
@@ -165,12 +181,17 @@ tr:hover{
   background-color: #ff9999;
 }
 
+.headers{
+  font-family: 'Fjalla One', sans-serif;
+}
+
 .headers:hover{
   background-color: inherit;
 }
 
 .mounttable th{
     text-decoration-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .notreached a{
@@ -193,5 +214,12 @@ tr:hover{
  flex-direction: row;
  align-items: center;
  margin-right: 30px;
- margin-top: 70px;
+ margin-top: 50px;
+ font-family: 'Roboto', sans-serif;
+}
+
+.inf-text{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+  margin-bottom: 40px;
 }

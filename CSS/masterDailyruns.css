@@ -21,7 +21,6 @@ html, body{
 
 .dropdown{
   display: block;
-
 }
 
 .dropbtn{
@@ -186,9 +185,10 @@ html, body{
 .text{
   font-size: 125%;
   text-align: center;
-  margin-bottom: 30px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
 /*
@@ -254,4 +254,8 @@ html, body{
   width: 150px;
   margin-top: 30px;
   margin-left:  30px;
+}
+
+.info{
+  margin-bottom: 40px;
 }
