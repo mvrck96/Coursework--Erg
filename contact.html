@@ -53,16 +53,34 @@
           <fieldset>
             <legend>Contact information</legend>
                 <br>
-                 First name:
-                 <input type="text" name="firstname" placeholder="John" required="">
-                 Last name:
-                 <input type="text" name="lastname" placeholder="Doe"><br><br>
+
+          <div class="outerNameinput">
+            <div class="outerFirstname">
+                <div class="firstname">
+                  First name:
+                </div>
+
+                <div class="inputFirstname">
+                  <input type="text" name="firstname" placeholder="John" required="" >
+                 </div>
+            </div>
+
+            <div class="outerLastname">
+                <div class="lastname">
+                  Last name:
+                </div>
+
+                <div class="inputLastname">
+                 <input type="text" name="lastname" placeholder="Doe" >
+                </div>
+            </div>
+          </div>
                  Your email:<br>
                  <input type="email" name="email" placeholder="example@maverick.com"><br><br>
                  Subject:<br>
                  <input type="text" name="sub" placeholder="" required=""><br><br>
                  Your Message:<br>
-                 <textarea name="message" rows="7" cols="90"></textarea><br><br>
+                 <textarea name="message" rows="7" class="textarea"></textarea><br><br>
                  <input type="submit" name="subbut" value="SUBMIT">
            </fieldset>
         </form>

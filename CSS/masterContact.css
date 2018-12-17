@@ -209,9 +209,43 @@ html, body{
  .inftxt a{
   color: black;
   text-decoration: underline;
+  font-size: 107%;
 }
 
 .inftxt{
   padding-top: 8px;
   font-family: 'Roboto', sans-serif;
+}
+
+
+.outerFirstname{
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+}
+
+.outerLastname{
+  display: flex;
+  flex-direction: column;
+  width: 305px;
+  margin-left: 41px;
+}
+
+.outerNameinput{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.inputFirstname input{
+  width: 261px;
+}
+
+.inputLastname input{
+  width: 261px;
+}
+
+.textarea {
+  width: 651px;
 }
