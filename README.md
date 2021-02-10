@@ -9,7 +9,10 @@ and  to help me communicate with people all around the world.
 
 Task was done, mark was obtained.
 
-University: MAI - Moscow Aviation Institute </br>
-Program: Bachelor in Computer Science </br>
-Group: M30-307Б-16 </br>
-Subject: Ergonomics of Computer-Aided Systems of Information Processing </br>
+__University__: Moscow Aviation Institute </br>
+
+__Program__: Bachelor in Computer Science </br>
+
+__Group__: M30-307Б-16 </br>
+
+__Subject__: Ergonomics of Computer-Aided Systems of Information Processing </br>
